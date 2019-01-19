@@ -1,6 +1,6 @@
 # ${APP}
 
-Very minimal (sub-POSIX) shell for scripting.
+Very simple (sub-POSIX) shell for scripting.
 
 ## Contents
 
