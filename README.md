@@ -1,6 +1,6 @@
 # 0sh
 
-Very simple (sub-POSIX) shell for scripting.
+Very minimal (sub-POSIX) shell for scripting.
 
 ## Contents
 
