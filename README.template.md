@@ -6,6 +6,7 @@ Very simple (sub-POSIX) shell for scripting.
 
 - [Contents](#contents)
 - [Features](#features)
+  - [Example](#example)
 - [Get it](#get-it)
   - [Using `go get`](#using-go-get)
   - [Pre-built binary](#pre-built-binary)
@@ -18,6 +19,15 @@ Very simple (sub-POSIX) shell for scripting.
 - built-ins: `cd` and `exit`
 - no branching of any kind (conditionals or loops)
 - no pipes (_NOTE_: this might change)
+- `-e` (errexit) and `-u` (noundef) enabled by default
+
+### Example
+
+```sh
+#!/usr/bin/env 0sh
+echo "$ABC" '$ABC' # a comment
+exit 1
+```
 
 ## Get it
 
